@@ -1,5 +1,5 @@
 # Dataset: AI Chat Models Performance in n8n Notification Workflows
-
+# https://data.mendeley.com/datasets/wjz2rjv6yk/1
 This dataset provides structured performance logs of four open-source AI chat models 
 (Minicpm-o-2_6, Gemma-3-12B-IT, Pixtral-12B, Qwen2-VL-7B-Instruct) deployed locally 
 through LM Studio and orchestrated via n8n.
