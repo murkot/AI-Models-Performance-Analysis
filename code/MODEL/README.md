@@ -70,7 +70,7 @@ The notebook also covers a leakage check, a correlation matrix, nested-model F t
 
 | File | Description |
 | --- | --- |
-| `Olena_Draft2_Draft_VLM_Full_Candidate_Model_polished.ipynb` | The analysis notebook |
+| `Olena_Full_Candidate_Model_polished.ipynb` | The analysis notebook |
 | `Olena_Log_Template_Proposed.csv` | The workflow log (add it to the repository if it may be shared) |
 | `README.md` | This file |
 
@@ -82,15 +82,7 @@ The notebook also covers a leakage check, a correlation matrix, nested-model F t
    pip install pandas numpy matplotlib statsmodels scipy jupyter
    ```
 
-2. Place `Olena_Log_Template_Proposed.csv` in the same folder as the notebook.
-
-3. In the Data Preparation cell, change the file path to the local file name:
-
-   ```python
-   vlm_log = pd.read_csv('Olena_Log_Template_Proposed.csv')
-   ```
-
-4. Open the notebook and choose **Kernel → Restart & Run All**.
+2. Open the notebook and choose **Kernel → Restart & Run All**.
 
 ## Reproducibility Note
 
