@@ -25,18 +25,6 @@
 - **33 s vs. 246 s longest observed call:** Qwen's longest completed call was 33 seconds, compared with 246 seconds for Gemma.
 - **95.9% of the variation in response time explained** by the preferred regression model, which includes a model by answer-length interaction.
 
-## Repository Structure
-
-```text
-.
-├── README.md
-├── data/
-│   └── Olena_Log_Template_Proposed.csv
-└── notebooks/
-    ├── Olena_FinalProject_EDA_polished.ipynb
-    └── Olena_Draft2_Draft_VLM_Full_Candidate_Model_polished.ipynb
-```
-
 | Notebook | What it covers |
 |---|---|
 | **Part 1: Response time, CPU and memory** (`Olena_FinalProject_EDA_polished.ipynb`) | Response time, CPU and memory by model; distribution shape; confidence and bootstrap intervals; CPU-seconds; answer length; learned dependency structure |
