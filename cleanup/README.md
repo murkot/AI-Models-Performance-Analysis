@@ -130,10 +130,3 @@ Examine how response time varies across models and request characteristics, and 
 | Notes / Observations | `notes` |
 
 </details>
-
-## Open Questions for Review
-
-- Is labeling the 128 blank `success` values as `Not executed` acceptable, or should they stay blank?
-- Batch runs log workflow time as a running total. Should batch runs be left out of the workflow latency comparison, or reported separately?
-- Should the 40 rows with a Telegram delivery error stay in the response-time analysis? Their model timings are valid.
-- Should the merged input type keep `test_id` as the way to tell Tests 5-8 from Test 18?
